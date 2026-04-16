@@ -3,42 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galería de Artes Digitales</title>
+    <title>Artes Digitales</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        <h1>🎨 Galería de Artes Digitales</h1>
-        <p>Explora la creatividad visual</p>
-    </header>
+    <!-- MENÚ -->
+    <nav>
+        <div class="logo">ArteDigital</div>
+        <ul>
+            <li><a href="#item1">Inicio</a></li>
+            <li><a href="#item2">Diseño</a></li>
+            <li><a href="#item3">Modelado</a></li>
+            <li><a href="#item4">Arte</a></li>
+        </ul>
+    </nav>
 
+    <!-- GALERÍA CON INFO CORTA -->
     <main>
-        <!-- Contenedor para las 4 imágenes -->
-        <div class="gallery-container">
-            <div class="art-item">
-                <img src="images (1).jpeg" alt="Arte Digital 1">
-                <div class="overlay">Diseño Conceptual</div>
+        <div class="gallery">
+            <div class="card" id="item1">
+                <img src="images.jpeg" alt="Arte 1">
+                <div class="info">
+                    <h3>Concept Art</h3>
+                    <p>Creación de mundos visuales.</p>
+                </div>
             </div>
-            <div class="art-item">
-                <img src="images.jpeg" alt="Arte Digital 2">
-                <div class="overlay">Ilustración 2D</div>
+
+            <div class="card" id="item2">
+                <img src="images (3).jpeg" alt="Arte 2">
+                <div class="info">
+                    <h3>Ilustración 2D</h3>
+                    <p>Diseño vectorial y tradicional.</p>
+                </div>
             </div>
-            <div class="art-item">
-                <img src="images (2).jpeg" alt="Arte Digital 3">
-                <div class="overlay">Modelado 3D</div>
+
+            <div class="card" id="item3">
+                <img src="images.jpeg" alt="Arte 3">
+                <div class="info">
+                    <h3>Arte 3D</h3>
+                    <p>Modelado y texturizado.</p>
+                </div>
             </div>
-            <div class="art-item">
-                <img src="images (1).jpeg" alt="Arte Digital 4">
-                <div class="overlay">Arte Abstracto</div>
+
+            <div class="card" id="item4">
+                <img src="imagen4.jpg" alt="Arte 4">
+                <div class="info">
+                    <h3>Arte Abstracto</h3>
+                    <p>Composición y color.</p>
+                </div>
             </div>
         </div>
     </main>
-
-    <footer>
-        <p>&copy; 2026 - Portafolio de Artes Digitales</p>
-    </footer>
 
     <script src="script.js"></script>
 </body>
